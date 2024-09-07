@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a responsive font size */
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Center the header content */
+header {
+    text-align: center;
+    padding: 20px;
+    }    
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2, h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    object-fit: cover;
+}
+
+a.icon-link img {
+    width: 40px;
+    height: auto;
+    margin: 10px;
+}
+table {
+    margin: 0 auto; 
+    width: auto; 
+    font-size: 0.9rem;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    text-align: center; 
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Responsive form styling */
+form {
+    margin: 20px auto;
+    padding: 20px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    background:#fff;    
+    box-sizing: border-box;
+   }    
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    margin-bottom: 15px;
+}
+form input[type="text"], form input[type="email"], form textarea, form button{
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px 0; 
+}
+
+button {
+    background-image: linear-gradient(to right,#831bcd, #f9620b);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer
+}
+
+button:hover {
+    background-image: linear-gradient(to right, #f9620b, #831bcd);
+}
+
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+    .skills-list {
+        flex-direction: column; 
+    }
+}
+@media only screen and (max-width: 488px) {
+    header, footer {
+    padding: 15px; /* Adjusts padding for smaller screens */ 
+    section, form {
+        width: calc(100% 20px); 
+        margin: 10px auto;
+    }
