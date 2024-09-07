@@ -6,7 +6,7 @@ Welcome to the personal profile page of Gungun Chaudhary! This is a simple, resp
 
 The project includes the following files:
 
-- `index.html`: The main HTML file that defines the structure of the profile page.
+- `profile.html`: The main HTML file that defines the structure of the profile page.
 - `css/style.css`: The CSS file that contains the styles and responsiveness of the page.
 - `img`: A folder that contains images used on the page, such as profile picture and icons.
 
@@ -23,4 +23,4 @@ The project includes the following files:
 
 1. Clone the repository or download the project files.
 2. Ensure you have all the necessary images in the `img` folder.
-3. Open the `index.html` file in a browser to view the page.
+3. Open the `profile.html` file in a browser to view the page.
